@@ -38,3 +38,31 @@ a {
 a:visited {
     color:white;
 }
+
+.present {
+    margin-top: 100px;
+    display: flex;
+}
+
+.welcome {
+    font-size: 48px;
+    font-weight: 1000;
+    margin-bottom: 5px;
+}
+
+.subtext {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sign {
+    cursor: pointer;
+    padding: 8px 24px;
+    border-radius: 8px;
+    background-color: #eb9c5c;
+    color: white;
+    border: 1px solid #eb9c5c;
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    font-weight: bold;
+}
