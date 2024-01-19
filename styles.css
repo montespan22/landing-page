@@ -65,6 +65,11 @@ a:visited {
     font-family: 'Playfair Display';
     font-size: 18px;
     font-weight: bold;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
@@ -94,5 +99,72 @@ a:visited {
 }
 
 .second {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+}
+
+.third {
+    background-color: #f79a85;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #fffff0;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.author {
+    font-size: 24px;
+    color: #4d602a;
+    padding-bottom: 100px;
+    margin-left: 575px;
+}
+
+.fourth {
+    background-color: #eb9c5c;
+    border-radius: 8px;
+    width: 770px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 100px 200px 100px 200px;
+    color: white;
+    padding: 50px 100px;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product {
+    font-size: 18px;
+}
+
+.write {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.up {
+    cursor: pointer;
+    padding: 2px 30px;
+    border-radius: 8px;
+    background-color: #eb9c5c;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    font-weight: bold;
+    flex-shrink: 0;
+    width: 140px;
+    height: 40px;
+    margin-right: 10px;
 }
