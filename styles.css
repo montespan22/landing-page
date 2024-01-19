@@ -113,16 +113,17 @@ a:visited {
 .quote {
     font-size: 36px;
     font-style: italic;
-    color: #fffff0;
+    color: #6e576b;
     padding-top: 100px;
     padding-bottom: 10px;
 }
 
 .author {
     font-size: 24px;
-    color: #4d602a;
+    color: #6e576b;
     padding-bottom: 100px;
-    margin-left: 575px;
+    margin-left: 565px;
+    font-weight: bold;
 }
 
 .fourth {
@@ -167,4 +168,14 @@ a:visited {
     width: 140px;
     height: 40px;
     margin-right: 10px;
+}
+
+.footer {
+    background-color: #1b4636;
+    height: 100px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
